@@ -1,0 +1,32 @@
+[
+
+  {
+    "tag": "adv-smelter",
+    "craftingTimeMultiplier": { "numerator": 2.0, "denominator": 3.0 }
+  },
+  {
+    "tag": "assembler-i",
+    "craftingTimeMultiplier": 1.0
+  },
+  {
+    "tag": "assembler-ii",
+    "craftingTimeMultiplier": { "numerator": 2.0, "denominator": 3.0 }
+  },
+  {
+    "tag": "assembler-iii",
+    "craftingTimeMultiplier": 0.5
+  },
+  {
+    "tag": "casting-machine",
+    "craftingTimeMultiplier": 1.0
+  },
+  {
+    "tag": "character",
+    "craftingTimeMultiplier": { "numerator": 1.0, "denominator": 3.0 }
+  },
+  {
+    "tag": "smelter-small",
+    "craftingTimeMultiplier": 1.0
+  }
+
+]
