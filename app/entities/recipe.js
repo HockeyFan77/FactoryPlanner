@@ -1,21 +1,31 @@
 import {
-  Entity
+  Entity,
+  Item,
+  Crafter
 } from '../_index.js';
 
 export class Recipe extends Entity {
 
-  constructor(rawData) {
+  #inputs = []; // RecipeItem
+  #outputs = []; // RecipeItem
+  #crafters = []; // RecipeCrafter
+
+  constructor(rawData, items) {
     super(rawData);
 
-    this.inputs = []; // RecipeItem
-    this.outputs = []; // RecipeItem
-    this.crafters = []; // RecipeCrafter
+    //this.inputs = []; // RecipeItem
+    //this.outputs = []; // RecipeItem
+    //this.crafters = []; // RecipeCrafter
   }
 
-  resolve(inputs, outputs, crafters) {
-    this.inputs = inputs ?? [];
-    this.outputs = outputs ?? [];
-    this.crafters = crafters ?? [];
+  get inputs() {
+    return this.#inputs;
+  }
+  get outputs() {
+    return this.#outputs;
+  }
+  get crafters() {
+    return this.#crafters;
   }
 
 }

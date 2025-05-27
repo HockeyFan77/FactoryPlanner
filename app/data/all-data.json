@@ -183,88 +183,88 @@
         "id": "conveyor-i",
         "name": "Conveyor I",
         "size": "1x1x1",
-        "throughput": { "numerator": 160.0, "denominator": 60 }
+        "throughput": { "p": 160, "q": 60 }
       },
       {
         "id": "conveyor-ii",
         "name": "Conveyor II",
         "size": "1x1x1",
-        "throughput": { "numerator": 320.0, "denominator": 60 }
+        "throughput": { "p": 320, "q": 60 }
       },
       {
         "id": "conveyor-iii",
         "name": "Conveyor III",
         "size": "1x1x1",
-        "throughput": { "numerator": 640.0, "denominator": 60 }
+        "throughput": { "p": 640, "q": 60 }
       },
       {
         "id": "conveyor-balancer-i",
         "name": "Conveyor Balancer I",
         "size": "2x1x2",
-        "throughput": { "numerator": 160.0, "denominator": 60 }
+        "throughput": { "p": 160, "q": 60 }
       },
       {
         "id": "conveyor-balancer-ii",
         "name": "Conveyor Balancer II",
         "size": "2x1x2",
-        "throughput": { "numerator": 320.0, "denominator": 60 }
+        "throughput": { "p": 320, "q": 60 }
       },
       {
         "id": "conveyor-balancer-iii",
         "name": "Conveyor Balancer III",
         "size": "2x1x2",
-        "throughput": { "numerator": 640.0, "denominator": 60 }
+        "throughput": { "p": 640, "q": 60 }
       },
       {
         "id": "conveyor-slope-i",
         "name": "Conveyor Slope I",
         "size": "2x2x1",
-        "throughput": { "numerator": 160.0, "denominator": 60 }
+        "throughput": { "p": 160, "q": 60 }
       },
       {
         "id": "conveyor-slope-ii",
         "name": "Conveyor Slope II",
         "size": "2x2x1",
-        "throughput": { "numerator": 320.0, "denominator": 60 }
+        "throughput": { "p": 320, "q": 60 }
       },
       {
         "id": "conveyor-slope-iii",
         "name": "Conveyor Slope III",
         "size": "2x2x1",
-        "throughput": { "numerator": 640.0, "denominator": 60 }
+        "throughput": { "p": 640, "q": 60 }
       },
       {
         "id": "freight-elevator-i",
         "name": "Freight Elevator I",
         "size": "4x?x3",
-        "throughput": { "numerator": 320.0, "denominator": 60 }
+        "throughput": { "p": 320, "q": 60 }
       },
       {
         "id": "loader",
         "name": "Loader",
         "size": "2x2x1",
-        "throughput": 200.0,
+        "throughput": 1200,
         "power": -5.0
       },
       {
         "id": "loader-2-lane",
         "name": "Loader, 2nd Lane",
         "size": "3x2x1",
-        "throughput": 200.0,
+        "throughput": 1200,
         "power": -10.0
       },
       {
         "id": "loader-3-lane",
         "name": "Loader, 3rd Lane",
         "size": "4x2x1",
-        "throughput": 200.0,
+        "throughput": 1200,
         "power": -15.0
       },
       {
         "id": "loader-filter",
         "name": "Filter Loader",
         "size": "2x2x1",
-        "throughput": 200.0,
+        "throughput": 1200,
         "power": -5.0
       },
       {
@@ -584,79 +584,80 @@
         "name": "Advanced Smelter",
         "size": "3x3x3",
         "power": -100.0,
-        "craftTimeMultiplier": { "numerator": 2.0, "denominator": 3.0 }
+        "craftingTimeMultiplier": { "p": 2, "q": 3 }
       },
       {
         "id": "assembler-i",
         "name": "Assembler I",
         "size": "3x4x3",
         "power": -100.0,
-        "craftTimeMultiplier": 1.0
+        "craftingTimeMultiplier": 1.0
       },
       {
         "id": "assembler-ii",
         "name": "Assembler II",
         "size": "3x4x3",
         "power": -100.0,
-        "craftTimeMultiplier": { "numerator": 2.0, "denominator": 3.0 }
+        "craftingTimeMultiplier": { "p": 2, "q": 3 }
       },
       {
         "id": "assembler-iii",
         "name": "Assembler III",
         "size": "3x4x3",
         "power": -100.0,
-        "craftTimeMultiplier": 0.5
+        "craftingTimeMultiplier": 0.5
       },
       {
         "id": "casting-machine",
         "name": "Casting Machine",
         "size": "6x7x3",
         "power": -100.0,
-        "craftTimeMultiplier": 1.0
+        "craftingTimeMultiplier": 1.0
       },
       {
         "id": "character",
         "name": "Character",
-        "craftTimeMultiplier": { "numerator": 1.0, "denominator": 3.0 }
+        "craftingTimeMultiplier": { "p": 1, "q": 3 }
       },
       {
         "id": "crusher-i",
         "name": "Crusher I",
         "size": "2x4x2",
         "power": -75.0,
-        "craftTimeMultiplier": 1.0
+        "craftingTimeMultiplier": 1.0
       },
       {
         "id": "crusher-ii",
         "name": "Crusher II",
         "size": "tbd",
         "power": -0.0,
-        "craftTimeMultiplier": 0.5
+        "craftingTimeMultiplier": 0.5
       },
       {
         "id": "greenhouse",
         "name": "Greenhouse",
         "size": "5x7x7",
-        "power": -100.0
+        "power": -100.0,
+        "craftingTimeMultiplier": 1.0
       },
       {
         "id": "lava-smelter-i",
         "name": "Lava Smelter I",
         "size": "11x12x7",
-        "craftTimeMultiplier": 1.0
+        "craftingTimeMultiplier": 1.0
       },
       {
         "id": "lava-smelter-ii",
         "name": "Lava Smelter II",
         "size": "tbd?11x12x7",
-        "craftTimeMultiplier": 0.5
+        "craftingTimeMultiplier": 0.5
       },
       {
         "id": "smelter-small",
         "name": "Smelter (Small)",
         "size": "2x3x2",
         "power": -100.0,
-        "craftTimeMultiplier": 1.0
+        "craftingTimeMultiplier": 1.0
       }
     ],
     "power": [
@@ -1130,7 +1131,7 @@
       "name": "Elevator",
       "time": 10.0,
       "inputs": { "xeno-plates": 50, "steel-beams": 50, "adv-machinery-parts": 20, "electronic-components": 15 },
-      "outputs": { "incinerator": 1 },
+      "outputs": { "elevator": 1 },
       "crafters": [
         "character",
         "assembler-i",
@@ -1314,7 +1315,7 @@
       "name": "Freight Elevator I",
       "time": 7.5,
       "inputs": { "xeno-plates": 15, "steel-beams": 15, "adv-machinery-parts": 5 },
-      "outputs": { "glass": 1 },
+      "outputs": { "freight-elevator-i": 1 },
       "crafters": [
         "character",
         "assembler-i",
@@ -1413,7 +1414,7 @@
       "name": "Light Bot",
       "time": 12.0,
       "inputs": { "steel-beams": 1, "machinery-parts": 1, "electronic-components": 1, "glass": 1 },
-      "outputs": { "steam-turbine": 1 },
+      "outputs": { "light-bot": 1 },
       "crafters": [
         "assembler-i",
         "assembler-ii",
@@ -2129,7 +2130,7 @@
       ]
     },
     {
-      "id": "windows-modular-slope-edge",
+      "id": "windows-modular-slope",
       "name": "Windows (Modular Slope)",
       "time": 1.0,
       "inputs": { "glass": 1 },

@@ -1,27 +1,31 @@
-import { Entity } from '../_index.js';
+import {
+  Utils,
+  Category,
+  Item,
+  Rational
+} from '../_index.js';
 
-export class Item extends Entity {
+export class Crafter extends Item {
 
-}
+  #craftingTimeMultiplier; // Rational
 
-import { Item } from '../_index.js';
+  /*
+      {
+        "id": "adv-smelter",
+        "name": "Advanced Smelter",
+        "power": -100.0,
+        "productionTimeMultiplier": { "p": 2, "q": 3 }
+      }
+  */
+  constructor(rawData, category) {
+    super(rawData, category);
 
-export class RecipeCrafter {
+    this.#craftingTimeMultiplier = Utils.toRational(rawData.craftingTimeMultiplier);
 
-  constructor({ crafter, craftingTime }) {
-    if (!(crafter instanceof Item)) {
-      throw new Error(`RecipeCrafter.constructor(): "crafter" must be of type Item.`);
-    }
-    if (typeof craftingTime !== 'number') {
-      throw new Error(`RecipeCrafter.constructor(): "craftingTime" must be a number.`);
-    }
-
-    this.crafter = crafter;
-    this.craftingTime = craftingTime;
   }
 
-  toString() {
-    return `${this.crafter.name} (${this.crafter.tag}): ${this.craftingTime}`;
+  get productionTimeMultiplier() {
+    return this.#craftingTimeMultiplier;
   }
 
 }
