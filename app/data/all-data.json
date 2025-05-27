@@ -773,7 +773,7 @@
     {
       "id": "adv-machinery-parts",
       "name": "Advanced Machinery Parts",
-      "time": 4.5,
+      "craftingTime": 4.5,
       "inputs": { "machinery-parts": 2, "steel-beams": 1 },
       "outputs": { "adv-machinery-parts": 2 },
       "crafters": [
@@ -786,7 +786,7 @@
     {
       "id": "assembler-i",
       "name": "Assembler I",
-      "time": 8.0,
+      "craftingTime": 8.0,
       "inputs": { "xeno-plates": 10, "machinery-parts": 10, "electronic-components": 5 },
       "outputs": { "assembler-i": 1 },
       "crafters": [
@@ -799,7 +799,7 @@
     {
       "id": "assembler-ii",
       "name": "Assembler II",
-      "time": 6.0,
+      "craftingTime": 6.0,
       "inputs": { "assembler-i": 1, "adv-machinery-parts": 6 },
       "outputs": { "assembler-ii": 1 },
       "crafters": [
@@ -812,7 +812,7 @@
     {
       "id": "assembler-iii",
       "name": "Assembler III",
-      "time": 6.0,
+      "craftingTime": 6.0,
       "inputs": { "assembler-ii": 1, "firmalite-sheet": 20, "circuit-board": 10 },
       "outputs": { "assembler-iii": 1 },
       "crafters": [
@@ -825,7 +825,7 @@
     {
       "id": "biomass",
       "name": "Biomass",
-      "time": 60.0,
+      "craftingTime": 60.0,
       "inputs": { "biomass": 1, "mineral-rock": 1, "water": 250 },
       "outputs": { "biomass": 2 },
       "crafters": [
@@ -835,7 +835,7 @@
     {
       "id": "biomass-burner",
       "name": "Biomass Burner",
-      "time": 4.0,
+      "craftingTime": 4.0,
       "inputs": { "xeno-plates": 5, "electronic-components": 5, "tech-rods": 5 },
       "outputs": { "biomass-burner": 1 },
       "crafters": [
@@ -848,7 +848,7 @@
     {
       "id": "boiler",
       "name": "Boiler",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "pipe": 5, "machinery-parts": 10, "steel-beams": 10 },
       "outputs": { "boiler": 1 },
       "crafters": [
@@ -861,7 +861,7 @@
     {
       "id": "building-block",
       "name": "Building Block",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "xeno-plates": 6, "tech-rods": 4 },
       "outputs": { "building-block": 20 },
       "crafters": [
@@ -874,7 +874,7 @@
     {
       "id": "burner-generator",
       "name": "Burner Generator",
-      "time": 4.0,
+      "craftingTime": 4.0,
       "inputs": { "xeno-plates": 25, "electronic-components": 10, "tech-rods": 5 },
       "outputs": { "burner-generator": 1 },
       "crafters": [
@@ -887,7 +887,7 @@
     {
       "id": "casting-machine",
       "name": "Casting Machine",
-      "time": 8.0,
+      "craftingTime": 8.0,
       "inputs": { "steel-beams": 15, "adv-machinery-parts": 20, "electronic-components": 5 },
       "outputs": { "casting-machine": 1 },
       "crafters": [
@@ -900,7 +900,7 @@
     {
       "id": "ceiling-light",
       "name": "Ceiling Light",
-      "time": 2.0,
+      "craftingTime": 2.0,
       "inputs": { "xeno-plates": 2, "electronic-components": 1 },
       "outputs": { "ceiling-light": 1 },
       "crafters": [
@@ -913,7 +913,7 @@
     {
       "id": "cement",
       "name": "Cement",
-      "time": 12.0,
+      "craftingTime": 12.0,
       "inputs": { "mineral-rock": 2, "xeno-ore-rubble": 1 },
       "outputs": { "cement": 2 },
       "crafters": [
@@ -924,7 +924,7 @@
     {
       "id": "concrete",
       "name": "Concrete",
-      "time": 15.0,
+      "craftingTime": 15.0,
       "inputs": { "cement": 2, "gravel": 4, "water": 20 },
       "outputs": { "concrete": 4 },
       "crafters": [
@@ -934,7 +934,7 @@
     {
       "id": "container",
       "name": "Container",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "xeno-plates": 30 },
       "outputs": { "container": 1 },
       "crafters": [
@@ -947,7 +947,7 @@
     {
       "id": "conveyor-i",
       "name": "Conveyor I",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 1, "machinery-parts": 1 },
       "outputs": { "conveyor-i": 2 },
       "crafters": [
@@ -960,7 +960,7 @@
     {
       "id": "conveyor-balancer-i",
       "name": "Conveyor Balancer I",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "conveyor-i": 4, "machinery-parts": 4, "electronic-components": 4 },
       "outputs": { "conveyor-balancer-i": 1 },
       "crafters": [
@@ -973,7 +973,7 @@
     {
       "id": "conveyor-slope-i",
       "name": "Conveyor Slope I",
-      "time": 1.5,
+      "craftingTime": 1.5,
       "inputs": { "conveyor-i": 2, "machinery-parts": 1 },
       "outputs": { "conveyor-slope-i": 1 },
       "crafters": [
@@ -986,7 +986,7 @@
     {
       "id": "crate",
       "name": "Crate",
-      "time": 2.0,
+      "craftingTime": 2.0,
       "inputs": { "xeno-plates": 6 },
       "outputs": { "crate": 1 },
       "crafters": [
@@ -999,7 +999,7 @@
     {
       "id": "crusher-i",
       "name": "Crusher I",
-      "time": 8.0,
+      "craftingTime": 8.0,
       "inputs": { "xeno-plates": 10, "machinery-parts": 10, "electronic-components": 2 },
       "outputs": { "crusher-i": 1 },
       "crafters": [
@@ -1012,7 +1012,7 @@
     {
       "id": "crusher-ii",
       "name": "Crusher II",
-      "time": -8.0,
+      "craftingTime": -8.0,
       "inputs": { "xeno-plates": 10, "machinery-parts": 10, "electronic-components": 2 },
       "outputs": { "crusher-ii": 1 },
       "crafters": [
@@ -1025,7 +1025,7 @@
     {
       "id": "decor-basic-shapes",
       "name": "Decor (Basic Shapes)",
-      "time": 1.0,
+      "craftingTime": 1.0,
       "inputs": { "xeno-plates": 1 },
       "outputs": { "decor-basic-shapes": 4 },
       "crafters": [
@@ -1038,7 +1038,7 @@
     {
       "id": "decor-struts",
       "name": "Decor (Struts)",
-      "time": 1.0,
+      "craftingTime": 1.0,
       "inputs": { "steel-beams": 1 },
       "outputs": { "decor-struts": 2 },
       "crafters": [
@@ -1051,7 +1051,7 @@
     {
       "id": "decor-walls",
       "name": "Decor (Walls)",
-      "time": 1.0,
+      "craftingTime": 1.0,
       "inputs": { "xeno-plates": 5 },
       "outputs": { "decor-walls": 1 },
       "crafters": [
@@ -1064,7 +1064,7 @@
     {
       "id": "door-single",
       "name": "Door (Single)",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "xeno-plates": 10, "machinery-parts": 2, "electronic-components": 1 },
       "outputs": { "door-single": 1 },
       "crafters": [
@@ -1077,7 +1077,7 @@
     {
       "id": "door-double",
       "name": "Door (Double)",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "xeno-plates": 20, "machinery-parts": 5, "electronic-components": 1 },
       "outputs": { "door-double": 1 },
       "crafters": [
@@ -1090,7 +1090,7 @@
     {
       "id": "drone-miner-i",
       "name": "Drone Miner I",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "xeno-plates": 10, "machinery-parts": 8, "electronic-components": 6 },
       "outputs": { "drone-miner-i": 1 },
       "crafters": [
@@ -1103,7 +1103,7 @@
     {
       "id": "drone-miner-ii",
       "name": "Drone Miner II",
-      "time": 7.5,
+      "craftingTime": 7.5,
       "inputs": { "drone-miner-i": 1, "adv-machinery-parts": 10, "circuit-board": 4 },
       "outputs": { "drone-miner-ii": 1 },
       "crafters": [
@@ -1116,7 +1116,7 @@
     {
       "id": "electronic-components",
       "name": "Electronic Components",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "tech-rods": 1, "wire-coil": 2 },
       "outputs": { "electronic-components": 1 },
       "crafters": [
@@ -1129,7 +1129,7 @@
     {
       "id": "elevator",
       "name": "Elevator",
-      "time": 10.0,
+      "craftingTime": 10.0,
       "inputs": { "xeno-plates": 50, "steel-beams": 50, "adv-machinery-parts": 20, "electronic-components": 15 },
       "outputs": { "elevator": 1 },
       "crafters": [
@@ -1142,7 +1142,7 @@
     {
       "id": "emergency-beacon",
       "name": "Emergency Beacon",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 2, "electronic-components": 5 },
       "outputs": { "emergency-beacon": 1 },
       "crafters": [
@@ -1152,7 +1152,7 @@
     {
       "id": "escalator-i",
       "name": "Escalator I",
-      "time": 1.5,
+      "craftingTime": 1.5,
       "inputs": { "xeno-plates": 3 },
       "outputs": { "escalator-i": 1 },
       "crafters": [
@@ -1165,7 +1165,7 @@
     {
       "id": "executive-office-chair",
       "name": "Executive Office Chair",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 1, "biomass": 1 },
       "outputs": { "executive-office-chair": 1 },
       "crafters": [
@@ -1178,7 +1178,7 @@
     {
       "id": "executive-office-couch",
       "name": "Executive Office Couch",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 2, "biomass": 1 },
       "outputs": { "executive-office-couch": 1 },
       "crafters": [
@@ -1191,7 +1191,7 @@
     {
       "id": "executive-office-desk",
       "name": "Executive Office Desk",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 2, "electronic-components": 1, "biomass": 1 },
       "outputs": { "executive-office-desk": 1 },
       "crafters": [
@@ -1204,7 +1204,7 @@
     {
       "id": "executive-office-file-cabinet",
       "name": "Executive Office File Cabinet",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 2, "biomass": 1 },
       "outputs": { "executive-office-file-cabinet": 1 },
       "crafters": [
@@ -1217,7 +1217,7 @@
     {
       "id": "executive-office-plant",
       "name": "Executive Office Plant",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 1, "biomass": 1 },
       "outputs": { "executive-office-plant": 1 },
       "crafters": [
@@ -1230,7 +1230,7 @@
     {
       "id": "executive-office-table",
       "name": "Executive Office Table",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 2, "biomass": 1 },
       "outputs": { "executive-office-table": 1 },
       "crafters": [
@@ -1243,7 +1243,7 @@
     {
       "id": "explosives",
       "name": "Explosives (Primitive)",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "igni-ore-rubble": 2, "tech-ore-rubble": 2, "biomass": 1 },
       "outputs": { "explosives": 1 },
       "crafters": [
@@ -1256,7 +1256,7 @@
     {
       "id": "explosive-charge",
       "name": "Explosive Charge",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "xeno-plates": 1, "explosives": 1, "wire-coil": 3, "electronic-components": 3 },
       "outputs": { "explosive-charge": 1 },
       "crafters": [
@@ -1269,7 +1269,7 @@
     {
       "id": "explosives-detonator",
       "name": "Explosives Detonator",
-      "time": 8.0,
+      "craftingTime": 8.0,
       "inputs": { "xeno-plates": 2, "electronic-components": 40 },
       "outputs": { "explosives-detonator": 1 },
       "crafters": [
@@ -1282,7 +1282,7 @@
     {
       "id": "forest-seed-plants",
       "name": "Forest Seed (Plants)",
-      "time": 300.0,
+      "craftingTime": 300.0,
       "inputs": { "forest-seed-plants": 1, "mineral-rock": 1, "water": 250 },
       "outputs": { "forest-seed-plants": 3 },
       "crafters": [
@@ -1292,7 +1292,7 @@
     {
       "id": "forest-seed-trees",
       "name": "Forest Seed (Trees)",
-      "time": 300.0,
+      "craftingTime": 300.0,
       "inputs": { "forest-seed-trees": 1, "mineral-rock": 1, "water": 250 },
       "outputs": { "forest-seed-trees": 3 },
       "crafters": [
@@ -1302,7 +1302,7 @@
     {
       "id": "firmalite-sheet-t0",
       "name": "Firmalite Sheet (Tier 0)",
-      "time": 6.0,
+      "craftingTime": 6.0,
       "inputs": { "firmalite-bar": 1 },
       "outputs": { "firmalite-sheet": 1 },
       "crafters": [
@@ -1313,7 +1313,7 @@
     {
       "id": "freight-elevator-i",
       "name": "Freight Elevator I",
-      "time": 7.5,
+      "craftingTime": 7.5,
       "inputs": { "xeno-plates": 15, "steel-beams": 15, "adv-machinery-parts": 5 },
       "outputs": { "freight-elevator-i": 1 },
       "crafters": [
@@ -1326,7 +1326,7 @@
     {
       "id": "glass",
       "name": "Glass",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "gravel": 5 },
       "outputs": { "glass": 1 },
       "crafters": [
@@ -1337,7 +1337,7 @@
     {
       "id": "gravel",
       "name": "Gravel",
-      "time": 12.0,
+      "craftingTime": 12.0,
       "inputs": { "mineral-rock": 2 },
       "outputs": { "gravel": 6 },
       "crafters": [
@@ -1348,7 +1348,7 @@
     {
       "id": "greenhouse",
       "name": "Greenhouse",
-      "time": 8.0,
+      "craftingTime": 8.0,
       "inputs": { "xeno-plates": 20, "glass": 6, "pipe": 4, "electronic-components": 1 },
       "outputs": { "greenhouse": 1 },
       "crafters": [
@@ -1361,7 +1361,7 @@
     {
       "id": "hd-transport-bot",
       "name": "Heavy Duty Transport Bot",
-      "time": 15.0,
+      "craftingTime": 15.0,
       "inputs": { "steel-beams": 1, "adv-machinery-parts": 1, "electronic-components": 1, "firmalite-sheet": 1 },
       "outputs": { "hd-transport-bot": 1 },
       "crafters": [
@@ -1373,7 +1373,7 @@
     {
       "id": "incinerator",
       "name": "Incinerator",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "steel-beams": 20, "electronic-components": 5, "concrete": 25 },
       "outputs": { "incinerator": 1 },
       "crafters": [
@@ -1386,7 +1386,7 @@
     {
       "id": "ladder",
       "name": "Ladder",
-      "time": 1.5,
+      "craftingTime": 1.5,
       "inputs": { "xeno-plates": 2 },
       "outputs": { "ladder": 1 },
       "crafters": [
@@ -1399,7 +1399,7 @@
     {
       "id": "lava-smelter-i",
       "name": "Lava Smelter I",
-      "time": 10.0,
+      "craftingTime": 10.0,
       "inputs": { "steel-beams": 10, "firmalite-bar": 10, "adv-machinery-parts": 5, "electronic-components": 5 },
       "outputs": { "lava-smelter-i": 1 },
       "crafters": [
@@ -1412,7 +1412,7 @@
     {
       "id": "light-bot",
       "name": "Light Bot",
-      "time": 12.0,
+      "craftingTime": 12.0,
       "inputs": { "steel-beams": 1, "machinery-parts": 1, "electronic-components": 1, "glass": 1 },
       "outputs": { "light-bot": 1 },
       "crafters": [
@@ -1424,7 +1424,7 @@
     {
       "id": "light-pole-i",
       "name": "Light Pole I",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 5, "electronic-components": 1, "tech-rods": 1 },
       "outputs": { "light-pole-i": 1 },
       "crafters": [
@@ -1437,7 +1437,7 @@
     {
       "id": "light-pole-ii",
       "name": "Light Pole II",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 3, "electronic-components": 1, "tech-rods": 1 },
       "outputs": { "light-pole-ii": 1 },
       "crafters": [
@@ -1450,7 +1450,7 @@
     {
       "id": "loader",
       "name": "Loader",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 3, "machinery-parts": 3, "electronic-components": 1 },
       "outputs": { "loader": 1 },
       "crafters": [
@@ -1463,7 +1463,7 @@
     {
       "id": "loader-2-lane",
       "name": "Loader, 2nd Lane",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 8, "machinery-parts": 4, "electronic-components": 2 },
       "outputs": { "loader-2-lane": 1 },
       "crafters": [
@@ -1476,7 +1476,7 @@
     {
       "id": "logistic-container-i",
       "name": "Logistic Container I",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "xeno-plates": 15, "machinery-parts": 4, "electronic-components": 1 },
       "outputs": { "logistic-container-i": 1 },
       "crafters": [
@@ -1489,7 +1489,7 @@
     {
       "id": "logistic-container-ii",
       "name": "Logistic Container II",
-      "time": 7.5,
+      "craftingTime": 7.5,
       "inputs": { "xeno-plates": 15, "steel-beams": 10, "adv-machinery-parts": 4, "electronic-components": 1 },
       "outputs": { "logistic-container-ii": 1 },
       "crafters": [
@@ -1502,7 +1502,7 @@
     {
       "id": "machinery-parts",
       "name": "Machinery Parts",
-      "time": 1.5,
+      "craftingTime": 1.5,
       "inputs": { "xeno-plates": 1 },
       "outputs": { "machinery-parts": 1 },
       "crafters": [
@@ -1515,7 +1515,7 @@
     {
       "id": "mining-drill",
       "name": "Mining Drill",
-      "time": 8.0,
+      "craftingTime": 8.0,
       "inputs": { "xeno-plates": 2, "machinery-parts": 1, "electronic-components": 1 },
       "outputs": { "mining-drill": 1 },
       "crafters": [
@@ -1528,7 +1528,7 @@
     {
       "id": "office-chair",
       "name": "Office Chair",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 1 },
       "outputs": { "office-chair": 1 },
       "crafters": [
@@ -1541,7 +1541,7 @@
     {
       "id": "office-couch",
       "name": "Office Couch",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 2 },
       "outputs": { "office-couch": 1 },
       "crafters": [
@@ -1554,7 +1554,7 @@
     {
       "id": "office-desk",
       "name": "Office Desk",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 2, "electronic-components": 1 },
       "outputs": { "office-desk": 1 },
       "crafters": [
@@ -1567,7 +1567,7 @@
     {
       "id": "office-file-cabinet",
       "name": "Office File Cabinet",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 2 },
       "outputs": { "office-file-cabinet": 1 },
       "crafters": [
@@ -1580,7 +1580,7 @@
     {
       "id": "office-nameplate",
       "name": "Office Nameplate",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 1 },
       "outputs": { "office-nameplate": 1 },
       "crafters": [
@@ -1593,7 +1593,7 @@
     {
       "id": "office-plant",
       "name": "Office Plant",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 1, "biomass": 1 },
       "outputs": { "office-plant": 1 },
       "crafters": [
@@ -1606,7 +1606,7 @@
     {
       "id": "office-statue",
       "name": "Office Statue",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 3, "biomass": 1 },
       "outputs": { "office-statue": 1 },
       "crafters": [
@@ -1619,7 +1619,7 @@
     {
       "id": "office-table",
       "name": "Office Table",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 2 },
       "outputs": { "office-table": 1 },
       "crafters": [
@@ -1632,7 +1632,7 @@
     {
       "id": "office-wall-plaque",
       "name": "Office Wall Plaque",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 1, "biomass": 1 },
       "outputs": { "office-wall-plaque": 1 },
       "crafters": [
@@ -1645,7 +1645,7 @@
     {
       "id": "ore-scanner",
       "name": "Ore Scanner",
-      "time": 10.0,
+      "craftingTime": 10.0,
       "inputs": { "xeno-plates": 4, "electronic-components": 20 },
       "outputs": { "ore-scanner": 1 },
       "crafters": [
@@ -1658,7 +1658,7 @@
     {
       "id": "paint-roller",
       "name": "Paint Roller",
-      "time": 6.0,
+      "craftingTime": 6.0,
       "inputs": { "biomass": 10, "tech-rods": 1, "machinery-parts": 1 },
       "outputs": { "paint-roller": 1 },
       "crafters": [
@@ -1668,7 +1668,7 @@
     {
       "id": "pipe",
       "name": "Pipe",
-      "time": 4.0,
+      "craftingTime": 4.0,
       "inputs": { "steel-beams": 2 },
       "outputs": { "pipe": 2 },
       "crafters": [
@@ -1681,7 +1681,7 @@
     {
       "id": "pipe-intake",
       "name": "Pipe Intake",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "pipe": 1, "machinery-parts": 5 },
       "outputs": { "pipe-intake": 1 },
       "crafters": [
@@ -1694,7 +1694,7 @@
     {
       "id": "plumber-tool",
       "name": "Plumber Tool",
-      "time": 1.5,
+      "craftingTime": 1.5,
       "inputs": { "biomass": 6 },
       "outputs": { "plumber-tool": 1 },
       "crafters": [
@@ -1704,7 +1704,7 @@
     {
       "id": "power-line",
       "name": "Power Line",
-      "time": 4.0,
+      "craftingTime": 4.0,
       "inputs": { "wire-coil": 2 },
       "outputs": { "power-line": 2 },
       "crafters": [
@@ -1717,7 +1717,7 @@
     {
       "id": "power-pole-small",
       "name": "Power Pole (Small)",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 10, "electronic-components": 2 },
       "outputs": { "power-pole-small": 1 },
       "crafters": [
@@ -1730,7 +1730,7 @@
     {
       "id": "power-pole-wall-mounted",
       "name": "Power Pole (Wall-Mounted)",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 4, "electronic-components": 2 },
       "outputs": { "power-pole-wall-mounted": 1 },
       "crafters": [
@@ -1743,7 +1743,7 @@
     {
       "id": "pump",
       "name": "Pump",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 6, "machinery-parts": 5, "electronic-components": 2 },
       "outputs": { "pump": 1 },
       "crafters": [
@@ -1757,7 +1757,7 @@
     {
       "id": "railings",
       "name": "Railings",
-      "time": 1.5,
+      "craftingTime": 1.5,
       "inputs": { "xeno-plates": 1 },
       "outputs": { "railings": 1 },
       "crafters": [
@@ -1770,7 +1770,7 @@
     {
       "id": "research-server",
       "name": "Research Server",
-      "time": 4.0,
+      "craftingTime": 4.0,
       "inputs": { "xeno-plates": 20, "electronic-components": 10, "tech-rods": 20 },
       "outputs": { "research-server": 1 },
       "crafters": [
@@ -1783,7 +1783,7 @@
     {
       "id": "rocky-desert-seed-plants",
       "name": "Rocky Desert Seed (Plants)",
-      "time": 300.0,
+      "craftingTime": 300.0,
       "inputs": { "rocky-desert-seed-plants": 1, "mineral-rock": 1, "water": 250 },
       "outputs": { "rocky-desert-seed-plants": 3 },
       "crafters": [
@@ -1793,7 +1793,7 @@
     {
       "id": "rocky-desert-seed-trees",
       "name": "Rocky Desert Seed (Trees)",
-      "time": 300.0,
+      "craftingTime": 300.0,
       "inputs": { "rocky-desert-seed-trees": 1, "mineral-rock": 1, "water": 250 },
       "outputs": { "rocky-desert-seed-trees": 3 },
       "crafters": [
@@ -1803,7 +1803,7 @@
     {
       "id": "sandy-desert-seed-plants",
       "name": "Sandy Desert Seed (Plants)",
-      "time": 300.0,
+      "craftingTime": 300.0,
       "inputs": { "sandy-desert-seed-plants": 1, "mineral-rock": 1, "water": 250 },
       "outputs": { "sandy-desert-seed-plants": 3 },
       "crafters": [
@@ -1813,7 +1813,7 @@
     {
       "id": "sandy-desert-seed-trees",
       "name": "Sandy Desert Seed (Trees)",
-      "time": 300.0,
+      "craftingTime": 300.0,
       "inputs": { "sandy-desert-seed-trees": 1, "mineral-rock": 1, "water": 250 },
       "outputs": { "sandy-desert-seed-trees": 3 },
       "crafters": [
@@ -1823,7 +1823,7 @@
     {
       "id": "science-pack-i",
       "name": "Science Pack I",
-      "time": 30.0,
+      "craftingTime": 30.0,
       "inputs": { "machinery-parts": 5, "tech-rods": 4 },
       "outputs": { "science-pack-i": 1 },
       "crafters": [
@@ -1836,7 +1836,7 @@
     {
       "id": "science-pack-ii",
       "name": "Science Pack II",
-      "time": 30.0,
+      "craftingTime": 30.0,
       "inputs": { "conveyor-i": 3, "building-block": 6 },
       "outputs": { "science-pack-ii": 1 },
       "crafters": [
@@ -1849,7 +1849,7 @@
     {
       "id": "science-pack-iii",
       "name": "Science Pack III",
-      "time": 60.0,
+      "craftingTime": 60.0,
       "inputs": { "adv-machinery-parts": 2, "concrete": 12, "firmalite-bar": 2 },
       "outputs": { "science-pack-iii": 1 },
       "crafters": [
@@ -1862,7 +1862,7 @@
     {
       "id": "shipping-pad-small",
       "name": "Shipping Pad (Small)",
-      "time": 15.0,
+      "craftingTime": 15.0,
       "inputs": { "xeno-plates": 50, "machinery-parts": 10, "electronic-components": 5, "emergency-beacon": 1 },
       "outputs": { "shipping-pad-small": 1 },
       "crafters": [
@@ -1875,7 +1875,7 @@
     {
       "id": "sign",
       "name": "Sign",
-      "time": 1.5,
+      "craftingTime": 1.5,
       "inputs": { "xeno-plates": 4 },
       "outputs": { "sign": 1 },
       "crafters": [
@@ -1888,7 +1888,7 @@
     {
       "id": "snack-bot",
       "name": "Snack Bot",
-      "time": 12.0,
+      "craftingTime": 12.0,
       "inputs": { "xeno-plates": 1, "machinery-parts": 1, "electronic-components": 1, "glass": 1 },
       "outputs": { "snack-bot": 1 },
       "crafters": [
@@ -1900,7 +1900,7 @@
     {
       "id": "space-station-terminal",
       "name": "Space Station Terminal",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 4, "electronic-components": 2, "emergency-beacon": 2 },
       "outputs": { "space-station-terminal": 1 },
       "crafters": [
@@ -1910,7 +1910,7 @@
     {
       "id": "stairs",
       "name": "Stairs",
-      "time": 1.5,
+      "craftingTime": 1.5,
       "inputs": { "xeno-plates": 2 },
       "outputs": { "stairs": 1 },
       "crafters": [
@@ -1923,7 +1923,7 @@
     {
       "id": "steam-turbine",
       "name": "Steam Turbine",
-      "time": 8.0,
+      "craftingTime": 8.0,
       "inputs": { "pipe": 10, "machinery-parts": 40, "steel-beams": 25, "electronic-components": 25 },
       "outputs": { "steam-turbine": 1 },
       "crafters": [
@@ -1936,7 +1936,7 @@
     {
       "id": "steel-beams-i",
       "name": "Steel Beams (T1)",
-      "time": 6.0,
+      "craftingTime": 6.0,
       "inputs": { "xeno-igni-ore-blend": 1 },
       "outputs": { "steel-beams": 1 },
       "crafters": [
@@ -1947,7 +1947,7 @@
     {
       "id": "tank",
       "name": "Tank",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "xeno-plates": 10, "steel-beams": 20, "adv-machinery-parts": 5 },
       "outputs": { "tank": 1 },
       "crafters": [
@@ -1960,7 +1960,7 @@
     {
       "id": "tech-ore",
       "name": "Technum Ore",
-      "time": 1.5,
+      "craftingTime": 1.5,
       "inputs": { "tech-ore-rubble": 1 },
       "outputs": { "tech-ore": 1 },
       "crafters": [
@@ -1971,7 +1971,7 @@
     {
       "id": "tech-rods-t1",
       "name": "Technum Rods (Tier 1)",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "tech-ore-rubble": 1 },
       "outputs": { "tech-rods": 1 },
       "crafters": [
@@ -1982,7 +1982,7 @@
     {
       "id": "tech-rods-t2",
       "name": "Technum Rods (Tier 2)",
-      "time": 6.0,
+      "craftingTime": 6.0,
       "inputs": { "tech-ore": 2 },
       "outputs": { "tech-rods": 3 },
       "crafters": [
@@ -1993,7 +1993,7 @@
     {
       "id": "tech-rods-t3",
       "name": "Technum Rods (Tier 3)",
-      "time": 7.5,
+      "craftingTime": 7.5,
       "inputs": { "tech-molten": 15 },
       "outputs": { "tech-rods": 5 },
       "crafters": [
@@ -2003,7 +2003,7 @@
     {
       "id": "transformer-small",
       "name": "Transformer (Small)",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "xeno-plates": 15, "electronic-components": 10, "tech-rods": 15 },
       "outputs": { "transformer-small": 1 },
       "crafters": [
@@ -2016,7 +2016,7 @@
     {
       "id": "transport-bot",
       "name": "Transport Bot",
-      "time": 10.0,
+      "craftingTime": 10.0,
       "inputs": { "xeno-plates": 1, "machinery-parts": 1, "electronic-components": 1 },
       "outputs": { "transport-bot": 1 },
       "crafters": [
@@ -2028,7 +2028,7 @@
     {
       "id": "tropical-rainforest-seed-plants",
       "name": "Tropical Rainforest Seed (Plants)",
-      "time": 300.0,
+      "craftingTime": 300.0,
       "inputs": { "tropical-rainforest-seed-plants": 1, "mineral-rock": 1, "water": 250 },
       "outputs": { "tropical-rainforest-seed-plants": 3 },
       "crafters": [
@@ -2038,7 +2038,7 @@
     {
       "id": "tropical-rainforest-seed-trees",
       "name": "Tropical Rainforest Seed (Trees)",
-      "time": 300.0,
+      "craftingTime": 300.0,
       "inputs": { "tropical-rainforest-seed-trees": 1, "mineral-rock": 1, "water": 250 },
       "outputs": { "tropical-rainforest-seed-trees": 3 },
       "crafters": [
@@ -2048,7 +2048,7 @@
     {
       "id": "tundra-seed-plants",
       "name": "Tundra Seed (Plants)",
-      "time": 300.0,
+      "craftingTime": 300.0,
       "inputs": { "tundra-seed-plants": 1, "mineral-rock": 1, "water": 250 },
       "outputs": { "tundra-seed-plants": 3 },
       "crafters": [
@@ -2058,7 +2058,7 @@
     {
       "id": "tundra-seed-trees",
       "name": "Tundra Seed (Trees)",
-      "time": 300.0,
+      "craftingTime": 300.0,
       "inputs": { "tundra-seed-trees": 1, "mineral-rock": 1, "water": 250 },
       "outputs": { "tundra-seed-trees": 3 },
       "crafters": [
@@ -2068,7 +2068,7 @@
     {
       "id": "vacuum-bot",
       "name": "Vacuum Bot",
-      "time": 12.0,
+      "craftingTime": 12.0,
       "inputs": { "xeno-plates": 1, "machinery-parts": 1, "electronic-components": 1 },
       "outputs": { "vacuum-bot": 1 },
       "crafters": [
@@ -2080,7 +2080,7 @@
     {
       "id": "walkway",
       "name": "Walkway",
-      "time": 1.5,
+      "craftingTime": 1.5,
       "inputs": { "xeno-plates": 3 },
       "outputs": { "walkway": 1 },
       "crafters": [
@@ -2093,7 +2093,7 @@
     {
       "id": "wall-light",
       "name": "Wall Light",
-      "time": 2.0,
+      "craftingTime": 2.0,
       "inputs": { "xeno-plates": 2, "electronic-components": 1 },
       "outputs": { "wall-light": 1 },
       "crafters": [
@@ -2106,7 +2106,7 @@
     {
       "id": "windows",
       "name": "Windows",
-      "time": 1.0,
+      "craftingTime": 1.0,
       "inputs": { "steel-beams": 1, "glass": 1 },
       "outputs": { "windows": 1 },
       "crafters": [
@@ -2119,7 +2119,7 @@
     {
       "id": "windows-modular",
       "name": "Windows (Modular)",
-      "time": 1.0,
+      "craftingTime": 1.0,
       "inputs": { "glass": 1 },
       "outputs": { "windows-modular": 1 },
       "crafters": [
@@ -2132,7 +2132,7 @@
     {
       "id": "windows-modular-slope",
       "name": "Windows (Modular Slope)",
-      "time": 1.0,
+      "craftingTime": 1.0,
       "inputs": { "glass": 1 },
       "outputs": { "windows-modular-slope": 1 },
       "crafters": [
@@ -2145,7 +2145,7 @@
     {
       "id": "windows-modular-slope-edge",
       "name": "Windows (Modular Slope Edge)",
-      "time": 1.0,
+      "craftingTime": 1.0,
       "inputs": { "glass": 1 },
       "outputs": { "windows-modular-slope-edge": 1 },
       "crafters": [
@@ -2158,7 +2158,7 @@
     {
       "id": "windows-modular-slope-wedge",
       "name": "Windows (Modular Slope Wedge)",
-      "time": 1.0,
+      "craftingTime": 1.0,
       "inputs": { "glass": 1 },
       "outputs": { "windows-modular-slope-wedge": 1 },
       "crafters": [
@@ -2171,7 +2171,7 @@
     {
       "id": "wire-coil",
       "name": "Wire Coil",
-      "time": 1.5,
+      "craftingTime": 1.5,
       "inputs": { "tech-rods": 1 },
       "outputs": { "wire-coil": 2 },
       "crafters": [
@@ -2184,7 +2184,7 @@
     {
       "id": "wooden-blocks",
       "name": "Wooden Blocks",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "biomass": 1 },
       "outputs": { "wooden-blocks": 5 },
       "crafters": [
@@ -2197,7 +2197,7 @@
     {
       "id": "wooden-decor-blocks",
       "name": "Wooden Decor Blocks",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "biomass": 1 },
       "outputs": { "wooden-decor-blocks": 5 },
       "crafters": [
@@ -2210,7 +2210,7 @@
     {
       "id": "xeno-igni-ore-blend",
       "name": "Xenoferrite-Ignium Ore Blend",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-ore-rubble": 4, "igni-ore-rubble": 2 },
       "outputs": { "xeno-igni-ore-blend": 1 },
       "crafters": [
@@ -2221,7 +2221,7 @@
     {
       "id": "xeno-ore",
       "name": "Xeno Ore",
-      "time": 1.5,
+      "craftingTime": 1.5,
       "inputs": { "xeno-ore-rubble": 1 },
       "outputs": { "xeno-ore": 1 },
       "crafters": [
@@ -2232,7 +2232,7 @@
     {
       "id": "xeno-plates-t1",
       "name": "Xenoferrite Plates (Tier 1)",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-ore-rubble": 1 },
       "outputs": { "xeno-plates": 1 },
       "crafters": [
@@ -2243,7 +2243,7 @@
     {
       "id": "xeno-plates-t2",
       "name": "Xenoferrite Plates (Tier 2)",
-      "time": 6.0,
+      "craftingTime": 6.0,
       "inputs": { "xeno-ore": 2 },
       "outputs": { "xeno-plates": 3 },
       "crafters": [
@@ -2254,7 +2254,7 @@
     {
       "id": "xeno-plates-t3",
       "name": "Xenoferrite Plates (Tier 3)",
-      "time": 7.5,
+      "craftingTime": 7.5,
       "inputs": { "xeno-molten": 15 },
       "outputs": { "xeno-plates": 5 },
       "crafters": [

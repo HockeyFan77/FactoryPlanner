@@ -29,21 +29,21 @@ export class Manager {
         continue;
       }
 
-      this.#map.set(entity.tag, entity);
+      this.#map.set(entity.id, entity);
       this.#nameMap.set(entity.name.toLowerCase(), entity);
     }
   }
 
-  get(tag) {
-    return (typeof tag !== 'string') ? undefined : this.#map.get(tag);
+  get(id) {
+    return (typeof id !== 'string') ? undefined : this.#map.get(id);
   }
   getByName(name) {
-    return (typeof name !== 'string') ? undefined : this.#nameMap.get(name?.trim().toLowerCase());
+    return (typeof name !== 'string') ? undefined : this.#nameMap.get(name.trim().toLowerCase());
   }
   getAll() {
     return [...this.#map.values()];
   }
-  getTags() {
+  getIds() {
     return [...this.#map.keys()];
   }
   getNames() {

@@ -6,18 +6,22 @@ import {
 
 export class Recipe extends Entity {
 
+  #craftingTime; // Number
   #inputs = []; // RecipeItem
   #outputs = []; // RecipeItem
-  #crafters = []; // RecipeCrafter
+  #crafters = []; // Crafter
 
   constructor(rawData, items) {
     super(rawData);
 
     //this.inputs = []; // RecipeItem
     //this.outputs = []; // RecipeItem
-    //this.crafters = []; // RecipeCrafter
+    //this.crafters = []; // Crafter
   }
 
+  get craftingTime() {
+    return this.#craftingTime;
+  }
   get inputs() {
     return this.#inputs;
   }
