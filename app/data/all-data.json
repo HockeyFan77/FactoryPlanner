@@ -1105,7 +1105,7 @@
     {
       "id": "barrel-empty",
       "name": "Barrel (Empty)",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 1 },
       "outputs": { "barrel-empty": 1 },
       "crafters": [
@@ -1117,7 +1117,7 @@
     {
       "id": "battery-small",
       "name": "Battery (Small)",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "xeno-plates": 10, "electronic-components": 4, "tech-rods": 20, "energy-cell": 10 },
       "outputs": { "battery-small": 1 },
       "crafters": [
@@ -1218,7 +1218,7 @@
     {
       "id": "ceiling-light-ii",
       "name": "Ceiling Light (Large)",
-      "time": 2.0,
+      "craftingTime": 2.0,
       "inputs": { "steel-beams": 5, "electronic-components": 5 },
       "outputs": { "ceiling-light-ii": 1 },
       "crafters": [
@@ -1242,7 +1242,7 @@
     {
       "id": "chemical-processor",
       "name": "Chemical Processor",
-      "time": 8.0,
+      "craftingTime": 8.0,
       "inputs": { "steel-beams": 20, "polymer-board": 10, "adv-machinery-parts": 5, "circuit-board": 5 },
       "outputs": { "chemical-processor": 1 },
       "crafters": [
@@ -1255,7 +1255,7 @@
     {
       "id": "circuit-board",
       "name": "Circuit Board",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "polymer-board": 1, "electronic-components": 2 },
       "outputs": { "circuit-board": 1 },
       "crafters": [
@@ -1268,7 +1268,7 @@
     {
       "id": "combat-drone",
       "name": "Combat Drone",
-      "time": 15.0,
+      "craftingTime": 15.0,
       "inputs": { "firmalite-sheet": 1, "adv-machinery-parts": 1, "circuit-board": 1, "hover-engine": 1, "weapon-components": 1 },
       "outputs": { "maintenance-drone": 1 },
       "crafters": [
@@ -1290,7 +1290,7 @@
     {
       "id": "construction-material",
       "name": "Construction Material",
-      "time": 90.0,
+      "craftingTime": 90.0,
       "inputs": { "firmalite-sheet": 90, "steel-beams": 15, "adv-machinery-parts": 15, "concrete": 30, "electronic-components": 15 },
       "outputs": { "construction-material": 1 },
       "crafters": [
@@ -1302,7 +1302,7 @@
     {
       "id": "construction-ship-port",
       "name": "Construction Ship Port",
-      "time": 10.0,
+      "craftingTime": 10.0,
       "inputs": { "steel-beams": 100, "adv-machinery-parts": 100, "circuit-board": 25, "energy-cell": 10, "polymer-board": 50, "maintenance-drone": 8 },
       "outputs": { "construction-ship-port": 1 },
       "crafters": [
@@ -1315,7 +1315,7 @@
     {
       "id": "construction-warehouse",
       "name": "Construction Warehouse",
-      "time": 10.0,
+      "craftingTime": 10.0,
       "inputs": { "steel-beams": 200, "adv-machinery-parts": 50, "circuit-board": 50, "polymer-board": 100 },
       "outputs": { "construction-warehouse": 1 },
       "crafters": [
@@ -1419,7 +1419,7 @@
     {
       "id": "data-cable",
       "name": "Data Cable",
-      "time": 2.0,
+      "craftingTime": 2.0,
       "inputs": { "polymer-board": 1, "wire-coil": 2 },
       "outputs": { "data-cable": 5 },
       "crafters": [
@@ -1432,7 +1432,7 @@
     {
       "id": "data-evaluator",
       "name": "Data Evaluator",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 1, "polymer-board": 1, "circuit-board": 1 },
       "outputs": { "data-evaluator": 1 },
       "crafters": [
@@ -1445,7 +1445,7 @@
     {
       "id": "data-memory-cell",
       "name": "Data Memory Cell",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 1, "polymer-board": 1, "circuit-board": 1 },
       "outputs": { "data-memory-cell": 1 },
       "crafters": [
@@ -1458,7 +1458,7 @@
     {
       "id": "data-processor",
       "name": "Data Processor",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 1, "polymer-board": 1, "circuit-board": 1 },
       "outputs": { "data-processor": 1 },
       "crafters": [
@@ -1471,7 +1471,7 @@
     {
       "id": "data-source",
       "name": "Data Source",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 1, "polymer-board": 1, "circuit-board": 1 },
       "outputs": { "data-source": 1 },
       "crafters": [
@@ -1484,7 +1484,7 @@
     {
       "id": "data-source-button",
       "name": "Data Source (Button)",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 1, "polymer-board": 1, "circuit-board": 1 },
       "outputs": { "data-source-button": 1 },
       "crafters": [
@@ -1497,7 +1497,7 @@
     {
       "id": "data-source-lever",
       "name": "Data Source (Lever)",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 1, "polymer-board": 1, "circuit-board": 1 },
       "outputs": { "data-source-lever": 1 },
       "crafters": [
@@ -1523,7 +1523,7 @@
     {
       "id": "decor-misc",
       "name": "Decor (Misc)",
-      "time": 1.0,
+      "craftingTime": 1.0,
       "inputs": { "xeno-plates": 10 },
       "outputs": { "decor-misc": 1 },
       "crafters": [
@@ -1549,7 +1549,7 @@
     {
       "id": "decor-support",
       "name": "Decor (Support)",
-      "time": 1.0,
+      "craftingTime": 1.0,
       "inputs": { "steel-beams": 1 },
       "outputs": { "decor-support": 2 },
       "crafters": [
@@ -1562,7 +1562,7 @@
     {
       "id": "decor-support-truss",
       "name": "Decor (Support Truss)",
-      "time": 1.0,
+      "craftingTime": 1.0,
       "inputs": { "steel-beams": 1 },
       "outputs": { "decor-support-truss": 2 },
       "crafters": [
@@ -1588,7 +1588,7 @@
     {
       "id": "distillation-column",
       "name": "Distillation Column",
-      "time": 10.0,
+      "craftingTime": 10.0,
       "inputs": { "steel-beams": 30, "pipe": 30, "adv-machinery-parts": 15, "electronic-components": 15 },
       "outputs": { "distillation-column": 1 },
       "crafters": [
@@ -1689,7 +1689,7 @@
     {
       "id": "energy-cell",
       "name": "Energy Cell",
-      "time": 30.0,
+      "craftingTime": 30.0,
       "inputs": { "xeno-plates": 3, "electronic-components": 6, "glass": 6, "olumic-acid": 60 },
       "outputs": { "energy-cell": 6 },
       "crafters": [
@@ -1712,7 +1712,7 @@
     {
       "id": "escalator-ii",
       "name": "Escalator II",
-      "time": 1.5,
+      "craftingTime": 1.5,
       "inputs": { "escalator-i": 1, "machinery-parts": 1 },
       "outputs": { "escalator-ii": 1 },
       "crafters": [
@@ -1803,7 +1803,7 @@
     {
       "id": "explosives",
       "name": "Explosives",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "igni-powder": 4, "low-density-olumite": 50 },
       "outputs": { "explosives": 1 },
       "crafters": [
@@ -1852,7 +1852,7 @@
     {
       "id": "fluid-assembler-i",
       "name": "Fluid Assembler I",
-      "time": 10.0,
+      "craftingTime": 10.0,
       "inputs": { "xeno-plates": 15, "adv-machinery-parts": 10, "circuit-board": 5, "polymer-board": 10 },
       "outputs": { "fluid-assembler-i": 1 },
       "crafters": [
@@ -1896,7 +1896,7 @@
     {
       "id": "flare-stack",
       "name": "Flare Stack",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "xeno-plates": 10, "steel-beams": 5, "machinery-parts": 5, "electronic-components": 1 },
       "outputs": { "flare-stack": 1 },
       "crafters": [
@@ -1922,7 +1922,7 @@
     {
       "id": "freight-elevator-ii",
       "name": "Freight Elevator II",
-      "time": 7.5,
+      "craftingTime": 7.5,
       "inputs": { "freight-elevator-i": 1, "adv-machinery-parts": 5, "circuit-board": 5 },
       "outputs": { "freight-elevator-ii": 1 },
       "crafters": [
@@ -1970,7 +1970,7 @@
     {
       "id": "hangar-gate",
       "name": "Hangar Gate",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "steel-beams": 25, "adv-machinery-parts": 10, "electronic-components": 1 },
       "outputs": { "hangar-gate": 1 },
       "crafters": [
@@ -1995,7 +1995,7 @@
     {
       "id": "hover-engine",
       "name": "Hover Engine",
-      "time": 6.0,
+      "craftingTime": 6.0,
       "inputs": { "tech-rods": 1, "adv-machinery-parts": 1, "electronic-components": 1 },
       "outputs": { "hover-engine": 1 },
       "crafters": [
@@ -2007,7 +2007,7 @@
     {
       "id": "igni-powder",
       "name": "Ignium Powder",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "igni-ore-rubble": 1 },
       "outputs": { "igni-powder": 5 },
       "crafters": [
@@ -2031,7 +2031,7 @@
     {
       "id": "jetpack-fuel",
       "name": "Jetpack Fuel",
-      "time": 4.0,
+      "craftingTime": 4.0,
       "inputs": { "xeno-plates": 1, "liquid-fuel": 30 },
       "outputs": { "jetpack-fuel": 1 },
       "crafters": [
@@ -2105,7 +2105,7 @@
     {
       "id": "liquid-fuel",
       "name": "Liquid Fuel",
-      "time": 8.0,
+      "craftingTime": 8.0,
       "inputs": { "low-density-olumite": 50 },
       "outputs": { "liquid-fuel": 1 },
       "crafters": [
@@ -2115,7 +2115,7 @@
     {
       "id": "liquid-polymer",
       "name": "Liquid Polymer",
-      "time": 4.0,
+      "craftingTime": 4.0,
       "inputs": { "crude-olumite": 100 },
       "outputs": { "liquid-polymer": 75, "waste-gas": 50 },
       "crafters": [
@@ -2125,7 +2125,7 @@
     {
       "id": "low-density-olumite",
       "name": "Low Density Olumite",
-      "time": 4.0,
+      "craftingTime": 4.0,
       "inputs": { "crude-olumite": 100 },
       "outputs": { "low-density-olumite": 100, "waste-gas": 25 },
       "crafters": [
@@ -2161,7 +2161,7 @@
     {
       "id": "loader-3-lane",
       "name": "Loader, 3rd Lane",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 12, "machinery-parts": 4, "electronic-components": 2 },
       "outputs": { "loader-3-lane": 1 },
       "crafters": [
@@ -2174,7 +2174,7 @@
     {
       "id": "loader-filter",
       "name": "Filter Loader",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 4, "adv-machinery-parts": 4, "electronic-components": 2 },
       "outputs": { "loader-filter": 1 },
       "crafters": [
@@ -2213,7 +2213,7 @@
     {
       "id": "long-range-scanner",
       "name": "Long Range Scanner",
-      "time": 20.0,
+      "craftingTime": 20.0,
       "inputs": { "concrete": 25, "steel-beams": 50, "machinery-parts": 25, "electronic-components": 50 },
       "outputs": { "long-range-scanner": 1 },
       "crafters": [
@@ -2239,7 +2239,7 @@
     {
       "id": "maintenance-drone",
       "name": "Maintenance Drone",
-      "time": 30.0,
+      "craftingTime": 30.0,
       "inputs": { "firmalite-sheet": 1, "adv-machinery-parts": 1, "circuit-board": 1, "hover-engine": 1, "energy-cell": 1 },
       "outputs": { "maintenance-drone": 1 },
       "crafters": [
@@ -2251,7 +2251,7 @@
     {
       "id": "marble-black",
       "name": "Marble (Black)",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "mineral-rock": 1, "crude-olumite": 5 },
       "outputs": { "marble-black": 2 },
       "crafters": [
@@ -2261,7 +2261,7 @@
     {
       "id": "marble-white",
       "name": "Marble (White)",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "mineral-rock": 1, "crude-olumite": 5 },
       "outputs": { "marble-white": 2 },
       "crafters": [
@@ -2284,7 +2284,7 @@
     {
       "id": "mining-drone",
       "name": "Mining Drone",
-      "time": 20.0,
+      "craftingTime": 20.0,
       "inputs": { "steel-beams": 1, "adv-machinery-parts": 1, "circuit-board": 1, "hover-engine": 1 },
       "outputs": { "mining-drone": 1 },
       "crafters": [
@@ -2296,7 +2296,7 @@
     {
       "id": "modular-building-planner",
       "name": "Modular Building Planner",
-      "time": 4.0,
+      "craftingTime": 4.0,
       "inputs": { "polymer-board": 1, "machinery-parts": 1 },
       "outputs": { "modular-building-planner": 1 },
       "crafters": [
@@ -2426,7 +2426,7 @@
     {
       "id": "olumic-acid",
       "name": "Olumic Acid",
-      "time": 8.0,
+      "craftingTime": 8.0,
       "inputs": { "igni-powder": 16, "olumite-gas": 75, "water": 25 },
       "outputs": { "olumic-acid": 401 },
       "crafters": [
@@ -2436,7 +2436,7 @@
     {
       "id": "olumite-gas",
       "name": "Olumite Gas",
-      "time": 4.0,
+      "craftingTime": 4.0,
       "inputs": { "crude-olumite": 100 },
       "outputs": { "olumite-gas": 90, "waste-gas": 10 },
       "crafters": [
@@ -2446,7 +2446,7 @@
     {
       "id": "orbital-uplink",
       "name": "Orbital Uplink",
-      "time": 10.0,
+      "craftingTime": 10.0,
       "inputs": { "xeno-plates": 1, "machinery-parts": 5, "electronic-components": 20, "circuit-board": 10 },
       "outputs": { "orbital-uplink": 1 },
       "crafters": [
@@ -2508,7 +2508,7 @@
     {
       "id": "planter-drone",
       "name": "Planter Drone",
-      "time": 8.0,
+      "craftingTime": 8.0,
       "inputs": { "firmalite-sheet": 1, "machinery-parts": 1, "electronic-components": 1, "hover-engine": 1 },
       "outputs": { "planter-drone": 1 },
       "crafters": [
@@ -2530,7 +2530,7 @@
     {
       "id": "polymer-board",
       "name": "Polymer Board",
-      "time": 2.0,
+      "craftingTime": 2.0,
       "inputs": { "liquid-polymer": 6 },
       "outputs": { "polymer-board": 1 },
       "crafters": [
@@ -2540,7 +2540,7 @@
     {
       "id": "portable-fuel",
       "name": "Portable Fuel",
-      "time": 4.0,
+      "craftingTime": 4.0,
       "inputs": { "barrel-empty": 1, "liquid-fuel": 30 },
       "outputs": { "portable-fuel": 1 },
       "crafters": [
@@ -2550,7 +2550,7 @@
     {
       "id": "portable-light",
       "name": "Portable Light",
-      "time": 3.0,
+      "craftingTime": 3.0,
       "inputs": { "xeno-plates": 1, "electronic-components": 1, "energy-cell": 1 },
       "outputs": { "portable-light": 1 },
       "crafters": [
@@ -2589,7 +2589,7 @@
     {
       "id": "power-pole-large",
       "name": "Power Pole (Large)",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "steel-beams": 10, "electronic-components": 5, "polymer-board": 5 },
       "outputs": { "power-pole-large": 1 },
       "crafters": [
@@ -2628,7 +2628,7 @@
     {
       "id": "pumpjack-i",
       "name": "Pumpjack I",
-      "time": 8.0,
+      "craftingTime": 8.0,
       "inputs": { "steel-beams": 12, "pipe": 8, "adv-machinery-parts": 5, "electronic-components": 5 },
       "outputs": { "pumpjack-i": 1 },
       "crafters": [
@@ -2641,7 +2641,7 @@
     {
       "id": "radio-tower-base",
       "name": "Radio Tower Base",
-      "time": 20,
+      "craftingTime": 20,
       "inputs": { "xeno-plates": 200, "steel-beams": 100, "adv-machinery-parts": 25, "circuit-board": 25 },
       "outputs": { "railings": 1 },
       "crafters": [
@@ -2720,7 +2720,7 @@
     {
       "id": "science-assistant-drone",
       "name": "Science Assistant Drone",
-      "time": 10.0,
+      "craftingTime": 10.0,
       "inputs": { "polymer-board": 1, "machinery-parts": 1, "circuit-board": 1, "hover-engine": 1, "energy-cell": 1 },
       "outputs": { "science-assistant-drone": 1 },
       "crafters": [
@@ -2771,7 +2771,7 @@
     {
       "id": "science-pack-iv",
       "name": "Science Pack IV",
-      "time": 60.0,
+      "craftingTime": 60.0,
       "inputs": { "circuit-board": 4, "energy-cell": 4, "firmalite-sheet": 4 },
       "outputs": { "science-pack-iv": 1 },
       "crafters": [
@@ -2784,7 +2784,7 @@
     {
       "id": "screen-bot",
       "name": "Screen Bot",
-      "time": 8.0,
+      "craftingTime": 8.0,
       "inputs": { "xeno-plates": 1, "polymer-board": 1, "circuit-board": 1, "glass": 1 },
       "outputs": { "screen-bot": 1 },
       "crafters": [
@@ -2809,7 +2809,7 @@
     {
       "id": "shipping-pad-medium",
       "name": "Shipping Pad (Medium)",
-      "time": 30.0,
+      "craftingTime": 30.0,
       "inputs": { "steel-beams": 100, "concrete": 100, "adv-machinery-parts": 50, "electronic-components": 50, "emergency-beacon": 2 },
       "outputs": { "shipping-pad-medium": 1 },
       "crafters": [
@@ -2847,7 +2847,7 @@
     {
       "id": "solar-panel-small",
       "name": "Solar Panel (Small)",
-      "time": 8.0,
+      "craftingTime": 8.0,
       "inputs": { "xeno-plates": 10, "electronic-components": 10, "glass": 10, "energy-cell": 5 },
       "outputs": { "solar-panel-small": 1 },
       "crafters": [
@@ -2860,7 +2860,7 @@
     {
       "id": "space-ship-fuel",
       "name": "Space Ship Fuel",
-      "time": 5.0,
+      "craftingTime": 5.0,
       "inputs": { "barrel-empty": 1, "firmalite-sheet": 5, "igni-powder": 5, "liquid-fuel": 100, "water": 20 },
       "outputs": { "space-ship-fuel": 1 },
       "crafters": [
@@ -2986,7 +2986,7 @@
     {
       "id": "transformer-large",
       "name": "Transformer (Large)",
-      "time": 10.0,
+      "craftingTime": 10.0,
       "inputs": { "xeno-plates": 25, "electronic-components": 10, "circuit-board": 10 },
       "outputs": { "transformer-large": 1 },
       "crafters": [
@@ -3011,7 +3011,7 @@
     {
       "id": "transport-ship-port",
       "name": "Modular Building Planner",
-      "time": 12.0,
+      "craftingTime": 12.0,
       "inputs": { "steel-beams": 400, "adv-machinery-parts": 200, "circuit-board": 100, "energy-cell": 40, "polymer-board": 200 },
       "outputs": { "transport-ship-port": 1 },
       "crafters": [
@@ -3102,7 +3102,7 @@
     {
       "id": "weapon-components",
       "name": "Weapon Components",
-      "time": 6.0,
+      "craftingTime": 6.0,
       "inputs": { "firmalite-sheet": 1, "machinery-parts": 1, "explosives": 1 },
       "outputs": { "weapon-components": 1 },
       "crafters": [
@@ -3474,7 +3474,7 @@
       "name": "Data Sources",
       "technology": {
         "prerequisites": ["data-cable"],
-        "unlockedRecipes": ["data-source", "data-sourc-button", "data-source-lever"]
+        "unlockedRecipes": ["data-source", "data-source-button", "data-source-lever"]
       }
     },
     {
